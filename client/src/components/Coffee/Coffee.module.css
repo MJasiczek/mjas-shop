@@ -1,0 +1,52 @@
+.card {
+    border: 0.21rem #c0c0c0 solid;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    margin: 1.6rem;
+    box-shadow: 0px 0px 10px 4px rgba(255, 128, 0, 0.112);
+    max-width: 250px;
+    /*width: 100%;
+    height: 50%;*/
+   overflow: hidden;
+  }
+  .card:hover { 
+    box-shadow: 0px 0px 10px 8px rgba(255, 128, 0, 0.212);
+  
+    
+  }
+  .card_body {
+    padding: 1rem;
+    /*height: 50%;*/
+  }
+  .card_body > * {
+    margin-bottom: .5rem;
+  }
+  .price {
+    font-size: 2rem;
+    color: orange;
+  }
+  
+
+  img {
+    border-radius: 0.5rem;
+  }
+  img.small{
+    max-width: 5rem;
+    width: 100%;
+    padding-left: 10px;
+  }
+  img.medium {
+     max-width: 29rem;
+    width: 100%;
+  }
+  /*img*/
+  .medium2_home{
+    width: 100%;
+    max-width: 250px;
+    min-width: 250px;
+    min-height: 250px;
+    max-height: 250px;
+  }
+  .medium2_home:hover{
+    background-color: rgba(138, 138, 138, 0.377);
+  }

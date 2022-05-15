@@ -1,0 +1,154 @@
+.container{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 320px;
+    
+    height: 90%;
+}
+.cardContent{
+    display: flex;
+    flex-direction: column;
+}
+.formWrapper{
+    
+}
+@media screen and (min-width: 1200px){
+
+
+.container {
+    width: 1170px;
+}
+}
+
+@media screen and (min-width: 992px)
+{.container {
+    width: 970px;
+}}
+@media screen and (min-width: 768px)
+{.container {
+    width: 750px;
+    
+}}
+.editTemplate{
+        width: 90%;
+        height: 100%;
+        margin: 20px auto 40px;
+        max-width: 1100px;
+       
+    
+}
+.mainSection{
+        padding-left: 195px;
+        position: relative;
+      
+        background:rgba(24, 24, 24, 0.5);
+        overflow: hidden;
+        margin: auto;
+}
+.sideMenu{
+    
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    padding-bottom: 20px;
+    margin: auto;
+    display: flex;
+    width: 195px;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: inset 10px 0px 40px 800px rgba(0, 0, 0, 0.699), 0 2px 20px #000;
+    color:#fff;
+    border: 1px solid rgba(128, 128, 128, 0.01);
+
+
+}
+.sideMenuAdmin{
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+
+}
+.formWrapper{
+    background: transparent;
+    position: relative;
+    min-height: 600px;
+    margin: 20px auto;
+      
+
+}
+.h2{
+    color: orange;
+    text-align: center;
+    line-height: 1!important;
+    font-weight: 700!important;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px 0 3px;
+}
+.view{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: none;
+}
+.dashboardName{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cardContentAdmin{
+    overflow: hidden;
+    /*overflow-x: scroll;*/
+    padding: 2rem;
+    margin: auto;
+    display: flex;
+    width: 60%;
+    height: 80%;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: inset 10px 0px 40px 800px rgba(0, 0, 0, 0.699), 0 2px 20px #000;
+    color:#fff;
+    border: 1px solid rgba(128, 128, 128, 0.01);
+}
+.cardContent{
+    position: relative;
+    padding: 2rem;
+    margin: auto;
+    display: flex;
+    width: 80%;
+    height: 80%;
+    justify-content: space-around;
+    text-align: center;
+    color:#fff;
+    border: 1px solid rgba(128, 128, 128, 0.01);
+}
+
+.button{
+    max-width: 10rem;
+letter-spacing: 1px;
+background: #fff;
+font-weight: 700;
+border: 1px solid #fff;
+border-radius: 3px;
+outline: none;
+display: inline-block;
+cursor: pointer;
+margin:1px;
+padding-bottom: 0.7rem;
+padding-top: 0.7rem;
+padding-left: 1.5rem;
+padding-right: 1.5rem;
+transition: 0.3s ease-out;
+text-transform: uppercase;
+box-shadow: 2px 10px 20px rgba(65, 65, 65, 0.5);
+
+}

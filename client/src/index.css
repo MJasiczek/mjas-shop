@@ -1,0 +1,222 @@
+#root{
+  height: auto;
+}
+html {
+  font-roast: 62.5%; /* 16px x 62.5 = 10px = 1rem */
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  font-roast: 1.65rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2a2a2a;
+ 
+}
+
+.min-30 {
+    min-width: 10rem;
+  }
+.swiper-wrapper{
+  height: 100%;
+  width: 100%;
+
+}
+.swiper-slide{
+  width: 100%;
+  height: 100%;
+  min-width: 300px;
+}
+
+ span.swiper-pagination-bullet {
+    background: rgba(139, 139, 139, 0.774);
+    width: 1rem;
+    height: 1rem;
+    border-radius: .5rem;
+    opacity: 1;
+}
+
+span.swiper-pagination-bullet-active {
+  background-color: rgb(247, 247, 247);
+  width: 1rem;
+  height: 1rem;
+  border-radius: .5rem;
+}
+
+/* Layout */
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+  grid-template-columns: 1fr;
+  grid-template-rows: 8rem 1fr 10rem;
+  height: 100vh;
+}
+header {
+  grid-area: header;
+  background: rgb(51, 51, 51);
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+main {
+  grid-area: main;
+  padding: 1rem;
+}
+footer {
+  grid-area: footer;
+  background: #141822;
+  color: #ffffff;
+}
+/* Common */
+h1 {
+  font-roast: 1.8rem;
+  padding: 1rem 0;
+}
+h2 {
+  font-roast: 1.6rem;
+  padding: 1rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(110, 110, 110);
+}
+a:hover {
+  color: #ff8000;
+}
+/* Header */
+header a {
+  color: #ffffff;
+  padding: 1rem;
+}
+a.brand {
+  color: #ffffff;
+  font-roast: 3rem;
+  font-weight: bold;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.row.center {
+  justify-content: center;
+}
+/* Image */
+img {
+  border-radius: 0.5rem;
+}
+img.small{
+  max-width: 5rem;
+  width: 100%;
+  padding-left: 10px;
+}
+img.medium {
+   max-width: 29rem;
+  width: 100%;
+}
+img.medium2_home{
+  min-width: 250px;
+}
+.medium2_home:hover{
+  background-color: rgba(138, 138, 138, 0.377);
+}
+/* Card */
+.card {
+  border: 0.1rem #c0c0c0 solid;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  margin: 1.5rem;
+  box-shadow: 0px 0px 10px 4px rgba(255, 128, 0, 0.112);
+  
+}
+.card:hover { 
+  box-shadow: 0px 0px 10px 8px rgba(255, 128, 0, 0.212);
+
+  
+}
+.card-body {
+  padding: 1rem;
+}
+.card-body > * {
+  margin-bottom: .5rem;
+}
+.price {
+  font-size: 2rem;
+}
+
+
+/* alert*/
+
+.alert{
+  padding: 0.5rem;
+  margin: 1rem;
+  border:0.1rem solid #a02020;
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.alert-info{
+  color:#2020a0;
+  background-color:#e0e0ff ;
+}
+.alert-danger{
+  color:#a02020;
+  background-color:transparent;
+}
+
+/*********************************************/
+/* SNACKBAR*/
+
+#snackbar {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 250px; /* Set a default minimum width */
+  margin-left: -125px; /* Divide value of min-width by 2 */
+  background-color: #333; /* Black background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 2px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  left: 50%; /* Center the snackbar */
+  bottom: 30px; /* 30px from the bottom */
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}

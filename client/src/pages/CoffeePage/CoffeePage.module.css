@@ -1,0 +1,107 @@
+.fail{
+    
+    display: flex;
+    flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+.img{
+    max-width: 350px;
+    width: 100%;
+}
+.coffeePage{
+    width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 5rem;
+       margin-bottom: 9rem;
+      
+}
+.desc{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+
+}
+.trail{
+    padding: 5rem;
+    text-align: center;
+    border-top: 1px solid rgba(128, 128, 128, 0.123);
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.col1{
+    display: flex;
+}
+.col2{
+    display: flex;
+    flex: 2 1 50rem;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: center;
+    color: rgb(230, 230, 230);
+   
+    
+}
+
+.button{
+    max-width: 50rem;
+    letter-spacing: 0.5px;
+    background: #fff;
+    font-weight: 700;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    outline: none;
+    display: inline-block;
+    cursor: pointer;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 0.5rem;
+    transition: 0.3s ease-out;
+    box-shadow: 2px 10px 20px rgb(65 65 65 / 50%);
+
+}
+button:hover{
+    background-color: #d1d1d1;
+    border:1px solid #adacab;
+    cursor: pointer;
+}
+.sizeButt{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.buttonsize{
+    max-width: 50rem;
+    letter-spacing: 0.5px;
+    background: black;
+    font-weight: 700;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    outline: none;
+    display: inline-block;
+    cursor: pointer;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1.2rem;
+    transition: 0.3s ease-out;
+    color:#fff;
+    box-shadow: 2px 10px 20px rgb(65 65 65 / 50%);
+}

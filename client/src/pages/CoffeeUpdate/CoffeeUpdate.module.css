@@ -1,0 +1,35 @@
+.form {
+    width: 50%;
+    margin: auto;
+     margin: 0 auto;
+     color:#fff;
+     
+   }
+   .form > div {
+       color:white;
+     display: flex;
+     flex-direction: column;
+     margin: 1rem;
+     width: 80%;
+     margin: 1rem auto;
+   }
+   .form label {
+     margin: 1rem 0;
+   }
+   .form input{
+     width: 60%;
+     background: #32364a;
+     color:rgba(219, 173, 46, 0.5);
+     padding: 10px;
+     margin-left:3px;
+     border: 2px solid #32364a;
+     outline: rgba(206, 162, 43);
+   }
+   .confirm { font: inherit;
+     margin: 0 1rem;
+     padding: 0.5rem 1.5rem;
+     cursor: pointer;
+     border-radius: 4px;
+     border: 1px solid rgba(134, 134, 134, 0.6);
+     width: 150px;}
+     
